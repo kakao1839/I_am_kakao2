@@ -11,5 +11,6 @@
     <orderEntry type="library" name="twemoji" level="application" />
     <orderEntry type="library" name="jquery.easing" level="application" />
     <orderEntry type="library" name="bootstrap.bundle" level="application" />
+    <orderEntry type="library" name="pace" level="application" />
   </component>
 </module>
