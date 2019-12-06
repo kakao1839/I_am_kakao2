@@ -6,24 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>KAKAO</title>
     <link rel="stylesheet" href="assets/fontawesome-free-5.11.2-web/css/all.css">
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=5efcb4e3646c7800b27131096f6de36a">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/styles.min.css?h=561cbd4e0cac15ab28983d9a63b1f996">
-
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <style>
+        img.emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 .05em 0 .1em;
+            vertical-align: -0.1em;
+        }
+    </style>
+    <!--絵文字コピペ→ http://twemoji.maxcdn.com/2/test/preview.html-->
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Kakao</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Kakao🍫</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#history">History</a></li>
-                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#history">History</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Work</a></li>
                     <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -33,96 +43,217 @@
         <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/38216541_waifu2x_art_noise2_tta_1.png?h=a89f0bba620e763fe1088f253a41ec0f" style="filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%) sepia(0%);font-family: Lato, sans-serif;width: 250px;">
             <h1>KAKAO-MAME</h1>
             <hr class="star-light">
-            <h2 class="font-weight-light mb-0" style="color: rgba(255,255,255,0.98);"><br>I am kakao&nbsp;<br>Not Cacao but Kakao&nbsp;<br>Cacao is a raw material for chocolate&nbsp;<br><br></h2>
+            <h2 class="font-weight-light mb-0" style="color: rgba(255,255,255,0.98);">
+                <br>I am kakao&nbsp;
+                <br>Not Cacao but Kakao&nbsp;
+                <br>Cacao is a raw material for chocolate&nbsp;<br><br></h2>
         </div>
     </header>
-    <section id="history" class=" mb-0" >
+    <section id="about" class=" mb-5" >
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">About</h2>
+            <hr class="mb-5">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h5 class="my-1"><i class="fas fa-school"></i> 所属</h5>
+                    <p>国立沖縄工業高等専門学校</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h5 class="my-1"><i class="fas fa-graduation-cap"></i> 学科</h5>
+                    <p>情報通信システム工学科</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h5 class="my-1"><i class="fas fa-birthday-cake"></i> 生年月日</h5>
+                    <p>2003年3月10日</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class=" mb-5" >
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Skills</h2>
+            <hr class="mb-5">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-python-plain"></h1>
+                    <h5 class="my-1">Python</h5>
+                    <p><span class="badge badge-secondary">PyCharm</span> <span class="badge badge-primary">OpenCV</span> <span class="badge badge-success">Discordbot</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px; fill: #212529;"><title/>
+                        <path d="M1.3 24l11.3-11.5L24 24zM0 0h12L0 12.5zM13.4 0L0 14v10l12-12L24 0z"/>
+                    </svg>
+                    <h5 class="my-1">Kotlin</h5>
+                    <p><span class="badge badge-secondary">AndroidStudio</span> <span class="badge badge-secondary">IntelliJ</span> <span class="badge badge-success">Android</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-go-plain"></h1>
+                    <h5 class="my-1">Go</h5>
+                    <p><span class="badge badge-secondary">GoLand</span> <span class="badge badge-primary">net/http</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-html5-plain"></h1>
+                    <h5 class="my-1">HTML</h5>
+                    <p><span class="badge badge-secondary">WebStorm</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-css3-plain"></h1>
+                    <h5 class="my-1">CSS</h5>
+                    <p><span class="badge badge-secondary">WebStorm</span> <span class="badge badge-primary">Bootstrap</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-javascript-plain"></h1>
+                    <h5 class="my-1">JavaScript</h5>
+                    <p><span class="badge badge-secondary">WebStorm</span> <span class="badge badge-primary">jQuery</span> <span class="badge badge-primary">Vue.js</span> <span class="badge badge-primary">Electron</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-git-plain"></h1>
+                    <h5 class="my-1">Git</h5>
+                    <p><span class="badge badge-secondary">cmd</span> <span class="badge badge-success">GitHub</span></p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 text-center">
+                    <h1 class="devicon-linux-plain"></h1>
+                    <h5 class="my-1">Linux</h5>
+                    <p><span class="badge badge-secondary">Ubuntu</span> <span class="badge badge-secondary">CentOS</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="history" class=" mb-5" >
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary">History</h2>
             <hr class="mb-5">
             <!-- Start: Steps Progressbar -->
             <div class="steps-progressbar">
-                <ul style="font-size: 15px;">
-                    <li class="previous">2003/03/10</br>誕生</li>
-                    <li class="previous">2018/04</br><a class="fas fa-external-link-alt" href= "http://www.okinawa-ct.ac.jp" target=”_blank” rel="noopener noreferrer">沖縄工業高等専門学校</a><br>情報通信システム工学科に入学<br></li>
-                    <li class="previous">2019/10</br><a class="fas fa-external-link-alt" href= "https://nitok-fes2019-dcc7a.firebaseapp.com" target=”_blank” rel="noopener noreferrer">第15回沖縄高専祭HP</a><br>を制作</li>
-                    <li class="previous">2019/11/9</br><a class="fas fa-external-link-alt" href= "https://web-ext.u-aizu.ac.jp/pc-concours/" target=”_blank” rel="noopener noreferrer">パソコン甲子園</a><br>モバイル部門本戦参加<br></li>
-                    <li class="active">Vue.js製のチャットツールを開発中</li>
-                    <li style="color: white">a</li>
+                <ul style="font-size: 13px;">
+                    <li class="previous">🎂2003/03/10</br>誕生</li>
+                    <li class="previous">👨🏻‍🎓2018/04</br><a class="fas fa-external-link-alt" href= "http://www.okinawa-ct.ac.jp" target=”_blank” rel="noopener noreferrer">沖縄工業高等専門学校</a><br>入学<br></li>
+                    <li class="previous">🎉2019/10</br><a class="fas fa-external-link-alt" href= "https://nitok-fes2019-dcc7a.firebaseapp.com" target=”_blank” rel="noopener noreferrer">第15回沖縄高専祭HP</a><br>を制作</li>
+                    <li class="previous">📱2019/11/9</br><a class="fas fa-external-link-alt" href= "https://web-ext.u-aizu.ac.jp/pc-concours/" target=”_blank” rel="noopener noreferrer">パソコン甲子園</a><br>モバイル部門本戦参加<br></li>
                 </ul>
             </div>
+            <!--<div class="steps-progressbar">
+                <ul>
+                    <li style="color: white">a</li>
+                    <li class="previous">📱2019/11/9</li>
+                    <li class="previous">📱2019/11/9</li>
+                    <li class="active">🔨now<br>Vue.js製のチャットツールを開発中</li>
+                </ul>
+            </div>-->
             <!-- End: Steps Progressbar -->
         </div>
     </section>
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio" style="background-color: #ebebeb;">
         <div class="container">
-            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
-            <hr class="star-dark mb-5">
+            <h2 class="text-uppercase text-center text-secondary">the work</h2>
+            <hr class=" mb-5">
             <div class="row">
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cabin.png?h=5bde47039f23de84a7748bee08793ac3"></a>
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/discord.jpg?h=5bde47039f23de84a7748bee08793ac3"></a>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/cake.png?h=4b5723e2b00006ef3a25df097c7187dd"></a>
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/kousensai.jpg?h=4b5723e2b00006ef3a25df097c7187dd"></a>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
                         <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/circus.png?h=984b4ff719255fcbf2e01164905ebb90"></a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-4">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/game.png?h=b5df08ec517f8b9872be52e015333d8a"></a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-5">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/safe.png?h=77cbc82936acf11b03bd687ff795e835"></a>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6">
-                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
-                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/submarine.png?h=71572e367539ee27f418326f2361bce2"></a>
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fas fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/vue.png?h=984b4ff719255fcbf2e01164905ebb90"></a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" required="" placeholder="Name"><small class="form-text text-danger help-block"></small></div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fas fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">neru-chan Bot</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/discordbot.jpg?h=5bde47039f23de84a7748bee08793ac3">
+                                <p class="mb-5">いろいろ多機能だった試しに作った程度のbot。<br>今は動いてないです。workの数稼ぎのために載せました。<br>discord.py製です</p>
+                            </div>
                         </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" rows="5"></textarea><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div id="success"></div>
-                        <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">第15回沖縄高専祭HP</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/kousensaitop.jpg?h=4b5723e2b00006ef3a25df097c7187dd">
+                                <p class="mb-5">第15回沖縄高専祭のHPです。作りました。<br>初めての本格的なWeb制作です。
+                                    <br><a class="fas fa-external-link-alt" href= "https://nitok-fes2019-dcc7a.firebaseapp.com" target=”_blank” rel="noopener noreferrer">WebPage</a>
+                                    <br><a class="fas fa-external-link-alt" href= "https://github.com/kakao1839/Nitok-school-fes2019" target=”_blank” rel="noopener noreferrer">GitHub</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal-->
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Vue-Chat(仮)</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/vue.png?h=984b4ff719255fcbf2e01164905ebb90">
+                                <p class="mb-5">Vue.js製のチャットツールをVue.jsの勉強のために作ってます</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="contact" class="contact" style="background-color: #ebebeb;">
+    <div class="contact text-center text-secondary">
+        <div class="container">
+            <h1 class="text-uppercase text-center text-secondary">Contact</h1>
+            <hr class=" mb-5">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4 ">Location</h4>
+                    <p style="font-size: 20px">Japan, Okinawa<br>nago city</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">Around the Web</h4>
+                    <ul class="list-inline ">
+                        <li class="list-inline-item"><a class="btn btn-outline-secondary btn-social text-center rounded-circle" role="button" href= "https://twitter.com/e381x" target=”_blank” rel="noopener noreferrer"><i class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-secondary btn-social text-center rounded-circle" role="button" href="https://www.facebook.com/gou.kawachi.96" target=”_blank” rel="noopener noreferrer"><i class="fab fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-secondary btn-social text-center rounded-circle" role="button" href="mailto:kawachi20018@gmail.com" ><i class="fas fa-envelope"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-secondary btn-social text-center rounded-circle" role="button" href="https://kakao.hateblo.jp" target=”_blank” rel="noopener noreferrer"><i class="fas fa-blog"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-secondary btn-social text-center rounded-circle" role="button" href="https://github.com/kakao1839" target=”_blank” rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-uppercase mb-4">support</h4>
+                    <p class="lead mb-0">ご支援よろしくおねがいします。<span><a class="fas fa-external-link-alt" href= "paypal.me/kakao1839" target=”_blank” rel="noopener noreferrer">PayPal.me</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
     <footer class="footer text-center">
         <div class="container">
@@ -134,10 +265,10 @@
                 <div class="col-md-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase">Around the Web</h4>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fa fa-dribbble fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fas fa-facebook fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fas fa-google-plus fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fas fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="#"><i class="fas fa-dribbble fa-fw"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -150,131 +281,13 @@
     <div class="copyright py-4 text-center text-white">
         <div class="container"><small>Copyright ©&nbsp;Brand 2018</small></div>
     </div>
-    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/cabin.png?h=5bde47039f23de84a7748bee08793ac3">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/cake.png?h=4b5723e2b00006ef3a25df097c7187dd">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/circus.png?h=984b4ff719255fcbf2e01164905ebb90">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-4">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/game.png?h=b5df08ec517f8b9872be52e015333d8a">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-5">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/safe.png?h=77cbc82936acf11b03bd687ff795e835">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-6">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-lg-8 mx-auto">
-                                <h2 class="text-uppercase text-secondary mb-0">Project Name</h2>
-                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/portfolio/submarine.png?h=71572e367539ee27f418326f2361bce2">
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
-                                    itaque. Nam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="#"><i class="fa fa-close"></i>&nbsp;Close Project</a></div>
-            </div>
-        </div>
-    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/script.min.js?h=07e07724e24c1177318fe5ed6f948165"></script>
+    <script>
+        twemoji.parse(document.body);
+    </script>
 </body>
 
 </html>
