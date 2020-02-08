@@ -1587,6 +1587,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1776,6 +1777,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="AAAAAAA" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="572" y="149" key="CommitChangelistDialog2" timestamp="1581171650646">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="572" y="149" key="CommitChangelistDialog2/-1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1581171650646" />
     <state x="769" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581171585951">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
